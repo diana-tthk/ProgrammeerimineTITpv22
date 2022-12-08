@@ -1,0 +1,19 @@
+Teha programmi, mis tervitab kasutajat nime järgi
+Peaks programm vastama alati selliselt, et nii eesnimi, 
+kui perenimi algavad suure tähega ja ülejäänud tähed on väikesed, 
+hoolimata sellest, kuidas nimi sisestati 
+(olgu ainult väikeste tähtedega, ainult suurtega või segamini).
+Vihje:
+>>> x = "tere"
+>>> x[0]
+'t'
+>>> x[1]
+'e'
+>>> x[2]
+'r'
+>>> x.find("r")
+2
+>>> x[0:2]
+'te'
+>>> x[2:4]
+'re'

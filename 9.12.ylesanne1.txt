@@ -1,0 +1,16 @@
+Kirjutage programm, mis küsib kasutajalt tema pangaarvel olevat 
+summat ning intressi protsenti, mida pank talle igal aastal maksab. 
+
+Vastuseks peab programm väljastama pangaarvel oleva summa 
+5 aasta pärast.
+
+Muutke programmi nii, et kõik vajalikud andmed see loeks
+failist. Aastate arvu ka :)
+
+A = P x (1 + r/n)^nt, где:
+
+A – сумма, которую вы получите в конце периода;
+P – сумма первоначальных инвестиций, т.е. то, что вы вкладываете;
+r – годовая ставка;
+n – количество периодов начисления ставки (ежемесячно, ежеквартально, ежегодно и т.д.);
+t – общий срок вклада в годах.

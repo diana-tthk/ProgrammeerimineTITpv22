@@ -1,0 +1,15 @@
+Küpsisetordi tegemisel laotakse küpsised 
+ristkülikukujulisele kandikule ja seda mitmes kihis, 
+nii, et igas kihis on sama palju küpsiseid. 
+Küsida kasutajalt, mitu küpsist mahub kandikule laiuses 
+ja mitu pikkuses ning kui mitme kihilist torti ta teha soovib. 
+Seejärel küsida, kui mitu küpsist on ühes pakis.
+
+Lõpuks väljastada, mitu küpsisepakki tuleb 
+sellise tordi tegemiseks osta. 
+NB! Eeldame, et poolikut küpsisepakki osta ei saa.
+
+Testige oma programmi! 
+Valige vähemalt üks komplekt algandmeid nii, 
+et küpsistest jätkub täpselt ja vähemalt üks komplekt nii, 
+et osa ostetud küpsiseid jääb üle.
