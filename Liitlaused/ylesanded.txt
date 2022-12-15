@@ -1,0 +1,29 @@
+1. Kirjutage programm, mis küsib kasutajalt kaks arvu 
+ning vastab, kas esimene arv jagub teisega või mitte.
+
+
+Vihje:
+>>> 6 % 4
+2
+>>> 6 % 3
+0
+
+Vastus:
+num1 = int(input("Enter first number"))
+num2 = int(input("Enter second number"))
+
+if num1 % num2 == 0:
+    print("Num1 can be divided with num2")
+else:
+    print("Num1 cannot be divided with num2")
+
+2. Kirjutage eelmise näite põhjal programm, 
+mis joonistab n-küljega hulknurga 
+(n väärtus ja küljepikkus küsitakse kasutajalt).
+
+
+
+3. Kirjutage programm, mis küsib kasutajalt rahasumma 
+ja selle, kas ta soovib teisendada 
+Eesti kroone eurodeks või vastupidi. 
+Seepeale kuvab programm teisenduse tulemuse ekraanile.
