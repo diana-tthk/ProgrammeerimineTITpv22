@@ -1,7 +1,23 @@
-Koostage tekstifail, mis sisaldab täisarve 
+1. Koostage tekstifail, mis sisaldab täisarve 
 erinevatel ridadel. 
 
 Kirjutage programm, 
 mis loeb antud failist ükshaaval arve 
 ning kuvab iga arvu kohta ekraanile info, 
 kas tegemist oli paaris või paaritu arvuga.
+
+2. Olgu meil vaja transportida teatud arv inimesi 
+bussidega, milles on teatud arv kohti. 
+Mitu bussi on vaja selleks, et kõik inimesed 
+kohale saaksid ja mitu inimest on viimases bussis 
+(eeldusel, et eelmised on kõik täiesti täis)? 
+Kirjutage programm, mis küsib inimeste arvu 
+ja busside suuruse ning lahendab seejärel 
+selle ülesande.
+
+Testige oma programmi muuhulgas järgmiste algandmetega:
+
+    inimeste arv: 60, kohtade arv: 40
+    inimeste arv: 80, kohtade arv: 40
+    inimeste arv: 20, kohtade arv: 40
+    inimeste arv: 40, kohtade arv: 40
