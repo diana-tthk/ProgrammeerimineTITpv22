@@ -1,0 +1,18 @@
+1. Kirjuta programmi, mis joonistab kilpkonnaga
+kolm ruutu üksteise kõrvale.
+Ruudu küljepikkud küsida kasutajalt ja 
+anda funktsioonile parameetrina.
+
+2. Täienda eelmine ülesanne nii, et ruududele saaks ka 
+värvi määrata. Värvi muutmiseks kutsu funktsioon color() nt nii:
+color('red'), kus sulgudes on värvi ingliskeelne nimi.
+
+3. Täienda nii, et kasutaja saaks määrata iga ruudule eraldi
+värvi
+
+4. Kirjutage funktsioon, mis võtab argumendiks ühe arvu
+ja tagastab selle arvu kahega korratuna.
+
+5. Kirjutada lõpuni fitness.py programmi.
+Programm arvutab inimese kehamassiindexit ja annab verdikti:
+allakaal, norm, ülekaal.
