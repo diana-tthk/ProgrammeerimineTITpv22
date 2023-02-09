@@ -1,0 +1,21 @@
+Kirjuta funktsioon, mis saab parameetriks aastanumbri ja tagastab True,
+kui tegu on liigaastaga ja False, kui on tavaline aasta.
+
+Liigaasta tuvastamiseks, võib kasutada järgmist info:
+liigaasta on alati jagatav 4-ga, va aastad, mis on jagatavad 100-ga, kuid mitte 400-ga
+
+
+if (is not divided by 4) => normal year
+else if (is not divided by 100) => leap year
+else if (is not divided by 400) => normal year
+else leap year
+
+def is_leap(year):
+    if year % 4 != 0:
+        return False
+    elif year % 100 != 0:
+        return True
+    elif year % 400 != 0:
+        return False
+    else:
+        return True
