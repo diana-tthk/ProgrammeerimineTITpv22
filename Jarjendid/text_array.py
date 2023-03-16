@@ -12,5 +12,10 @@ line = "10.10.14.209"
 octets = line.split('.')
 print("My fourth octet is: " + octets[3])
 
+#join() method
+test = ' '.join(['Tere', 'hommikust'])
+print(test)
+test = '.'.join(octets)
+print(test)
 
 input()

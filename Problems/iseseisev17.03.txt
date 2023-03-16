@@ -1,0 +1,9 @@
+1. Use for cycle to print all numbers in between 10 and 100, that can be divided by 3
+2. Write suitable list(range(...)) function to create the following list:
+
+    [100, 93, 86, 79, 72, 65, 58, 51, 44, 37, 30, 23, 16]
+
+3. Write a programm, that asks user for a file name and then starts to print this file contents.
+File contents must be printed by "pages", 20 lines each. That means that first 20 lines are printed and then program waits for user to hit Enter before printing the next
+20 lines... and so on until the end of file (hint: use function input() for that). 
+For testing you can download "Alice in Wonderland" in .txt from here: https://www.gutenberg.org/files/35688/35688.txt.

@@ -33,4 +33,8 @@ print("My array length is " + str(len(long_months)))
 #get index of the specific element (index)
 print("My element 10 index is " + str(long_months.index(10)))
 
+print("--------------")
+#negative index
+print(long_months[-1])
+
 input()
