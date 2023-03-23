@@ -18,4 +18,6 @@ print(test)
 test = '.'.join(octets)
 print(test)
 
+
+
 input()

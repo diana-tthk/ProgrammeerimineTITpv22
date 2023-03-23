@@ -18,3 +18,7 @@ numbers_squares = [4,16,25,36,9,9,25,4,25,49]
 Celsiuse skaalas esitatud temperatuure (iga arv on antud eraldi real) 
 ning väljastab need ekraanile koos vastavate väärtustega 
 Fahrenheiti skaalas. Nagu: "Celsius: 0, Farenheit: 32"
+
+4. Kirjutage funktsioon kuu, mis võtab argumendiks sõne 
+kujul <päev>. <kuu> <aasta> (nt. '24. veebruar 1918') 
+ning tagastab vastava kuu nime.
