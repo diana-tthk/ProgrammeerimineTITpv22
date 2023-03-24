@@ -2,3 +2,5 @@
 Iga inimese andmed on eraldi ennik, kus esimene element on 
 inimese nimi, teine - perekonnanimi ja kolmas - sünniaasta.
 Kõik ennikud panna listi nimega persons.
+
+2. Leia kõige noorema inimese sünniaasta.
