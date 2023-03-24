@@ -4,3 +4,10 @@ inimese nimi, teine - perekonnanimi ja kolmas - sünniaasta.
 Kõik ennikud panna listi nimega persons.
 
 2. Leia kõige noorema inimese sünniaasta.
+3. Prindi kõige noorema inimese ees- ja perekonnanimi
+4. Prindi kõige noorema inimese ees- ja perekonnanimi koos tema vanusega
+(vanuse arvutamiseks kasutage funktsiooni today() või now())
+
+5. Kirjutage lisafunktsioon, mis kontrollib, kas isik on vähemalt 
+18-aastane või mitte. Ja täiendage programm nii, et teil tekkiks 
+kaks listi: täisealised ja allaealised
