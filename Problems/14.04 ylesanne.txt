@@ -1,0 +1,38 @@
+1. Kasutada faili andmestruktuurid/telefoniraamat.txt.
+Lugeda telefoninumbrid failist ja panna need
+sõnastikusse. Realiseerida otsingu:
+kasutaja paneb nimi ja programm tagastab 
+telefoninumbrit (kui on). "5" saamiseks
+programm ei saa "crash'ida" kui küsitakse
+mingi nimi, mida ei ole raamatus.
+
+2. Scrabble
+A, E, I, O, U, L, N, S, T, R - 1 point
+D, G - 2 points
+B, C, M, P - 3 points
+F, H, V, W, Y - 4 points
+K - 5 points
+J, X - 8 points
+Q, Z - 10 points
+
+Kirjutage programmi, 
+mis arvutab sõna väärtus punktides.
+
+3. Täiendage eelmine programm nii, et 
+töötaks ka vene sõnadega:
+А, В, Е, И, Н, О, Р, С, Т – 1 очко
+Д, К, Л, М, П, У – 2 очка
+Б, Г, Ё, Ь, Я – 3 очка
+Й, Ы – 4 очка
+Ж, З, Х, Ц, Ч – 5 очков
+Ш, Э, Ю – 8 очков
+Ф, Щ, Ъ – 10 очков
+
+Kui tahate ise keelt määrata, võite Kasutada
+import re
+
+4. Kirjutada salasõnade generaator, mis 
+genereerib randoomsed kindla pikkusega keerulised
+salasõnad. Salasõnas peab olema vähemalt
+1 suur täht, 1 väike täht, 1 sümbol, 1 number.
+Valmis salasõna prinditakse monitorile.
