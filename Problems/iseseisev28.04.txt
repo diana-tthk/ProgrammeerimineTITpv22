@@ -1,0 +1,16 @@
+1. Kirjutada lõpuni eelmisel tunnil alustatud ülesanne
+(Klassid > warrior_amunition.py). Seal puudub loogika relva saamiseks.
+Tuletan meelde, et enne mängu algust sõjamehed veeretavad täringu
+ja see, kes saab 3 või rohkem võtab endale mõõga.
+
+2. Kirjutada analoogilise mängu autovõistluse simuleerimiseks.
+Mängus osaleb kaks autot. Igal autol on mudel, mark, võistlusnumber.
+Kõik autod alustavad liikumist samal ajal ja hakkavad liikuma finiši
+suunas randoomse kiirusega (st. et läbivad randoomne arv sammu 
+tsükkli sees). See auto, mis esimesena finišini jõuab - võidab.
+Mängu lõpus teatada võitjat. Trassi pikkust võite ise määrata.
+
+3. Täiendada eelmise mängu nii, et osaleda võiks ka rohkem, kui kaks 
+autot. Osalejaid loob kasutaja. St. et kasutaja paneb sisse esimese auto
+mudeli, marki, võistlusnumbri ja programm loob auto objekti.
+Kasutaja saab luua nii palju autosid, kui ta soovib.
