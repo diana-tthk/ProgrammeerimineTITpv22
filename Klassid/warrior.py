@@ -9,15 +9,18 @@
 #left, game is over and the winner is printed
 import random
 class Warrior:
-    name = ""
+    __name = ""
     hp = 100
 
+    def name(self):
+        return self.__name
+
     def __init__(self, name):
-        self.name = name
+        self.__name = name
 
     def attack(self, warrior):
         if isinstance(warrior, Warrior):
-            print(self.name, "is attacking", warrior.name)
+            print(self.__name, "is attacking", warrior.__name)
             warrior.under_attack()
         else:
             print("Cannot attack this object!")
@@ -25,8 +28,10 @@ class Warrior:
     
     def under_attack(self):
         self.hp = self.hp - random.randint(1,20)
-        print(self.name, "has", self.hp, "health")
+        print(self.__name, "has", self.hp, "health")
         return
+
+    
 
 
 #main logic
@@ -44,12 +49,12 @@ while True:
     if lot == 1:
         war1.attack(war2)
         if(end_game(war1, war2)):
-            print(war1.name, "has won the game!")
+            print(war1.name(), "has won the game!")
             break
     else:
         war2.attack(war1)
         if(end_game(war1, war2)):
-            print(war2.name, "has won the game!")
+            print(war2.name(), "has won the game!")
             break
 
 input()
