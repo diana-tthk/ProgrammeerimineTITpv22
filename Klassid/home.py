@@ -6,11 +6,13 @@
 # Meil on Kodu. Kodu kohta meil on:
 # pindala, hind
 # Kodu ostmiseks võime saada allahindlust.
+
+
 class Human:
     default_name = 'No_name'
     default_age = 35
 
-    def __init__(self, money, house, 
+    def __init__(self, money, house,
     name = default_name,
     age = default_age):
         self.name = name
@@ -35,6 +37,11 @@ class Human:
         self.__house = house
 
     def buy_house(self, house, discount = 0):
+        price = house.final_price(discount)
+        if self.__money >= price:
+            self.__make_deal(house, price)
+        else:
+            print("Not enough money for a deal")
         return
 
 class House:
@@ -44,6 +51,16 @@ class House:
         self._price = price
     
     def final_price(self, discount):
-        final_price = self._price(100-discount)/100
+        final_price = self._price*(100-discount)/100
         return final_price
-    
+
+    def __str__(self):
+        return "My house is " + str(self._area) + " square meters big."
+    def __repr__(self):
+        return "My house is" + str(self._area) + " square meters big."
+
+house = House(40, 90000)
+fedor = Human(0, None, 'Fedor', 32)
+fedor.buy_house(house, 100)
+fedor.info()
+input()

@@ -1,0 +1,11 @@
+Üldnõuded
+1. Projekt koosneb lahendusest 
+dokumentatsiooniga.
+2. Projekti kood GitHub'is
+3. Kood kirjutatud vastavalt koodi 
+standardidele
+4. Kood on kommenteeritud
+5. Projekti dokumentatsioon on eesti
+või inglise keeles
+
+
